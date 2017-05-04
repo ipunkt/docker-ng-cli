@@ -24,6 +24,18 @@ Serving ng app
 $> docker run -u $(id -u) --rm -p 4200:4200 -v "$PWD":/app ipunktbs/docker-ng-cli ng serve -host 0.0.0.0
 ```
 
+### Alias
+
+Add following alias to your `~.bash_aliases` file:
+```bash
+alias ng="docker run -u $(id -u) --rm -v "$PWD":/app ipunktbs/docker-ng-cli:latest ng"
+```
+
+So you can use
+```bash
+$> ng
+```
+
 ## Development
 
 ### Build container
