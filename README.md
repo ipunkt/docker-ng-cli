@@ -1,5 +1,7 @@
 # docker-ng-cli
 
+[![](https://images.microbadger.com/badges/image/ipunktbs/docker-ng-cli.svg)](https://microbadger.com/images/ipunktbs/docker-ng-cli "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/ipunktbs/docker-ng-cli.svg)](https://microbadger.com/images/ipunktbs/docker-ng-cli "Get your own version badge on microbadger.com")
+
 ## Usage
 
 Running ng console
