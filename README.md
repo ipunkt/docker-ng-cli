@@ -29,7 +29,7 @@ $> docker run -u $(id -u) --rm -p 4200:4200 -v "$PWD":/app ipunktbs/docker-ng-cl
 Add following alias to your `~.bash_aliases` file:
 ```bash
 WAI='$PWD'
-alias ng="docker run -u $(id -u) --rm -v "$WAI":/app ipunktbs/docker-ng-cli:latest ng"
+alias ng="docker run -u $(id -u) --rm -p 4200:4200 -v "$WAI":/app ipunktbs/docker-ng-cli:latest ng"
 ```
 
 So you can use
