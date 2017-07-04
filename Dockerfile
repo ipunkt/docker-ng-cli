@@ -7,7 +7,7 @@ FROM node:7
 
 MAINTAINER ipunkt Business Solutions OHG "info@ipunkt.biz"
 
-ARG NG_CLI_VERSION=v1.1.0-beta.0
+ARG NG_CLI_VERSION=v1.2.0
 ARG USER_HOME_DIR="/app"
 ARG USER_ID=1000
 
