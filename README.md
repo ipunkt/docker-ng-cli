@@ -2,6 +2,12 @@
 
 [![](https://images.microbadger.com/badges/image/ipunktbs/docker-ng-cli.svg)](https://microbadger.com/images/ipunktbs/docker-ng-cli "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/ipunktbs/docker-ng-cli.svg)](https://microbadger.com/images/ipunktbs/docker-ng-cli "Get your own version badge on microbadger.com")
 
+## What is inside?
+
+node version 7.10.0
+
+@angular/cli version 1.2.0
+
 ## Usage
 
 Running ng console
